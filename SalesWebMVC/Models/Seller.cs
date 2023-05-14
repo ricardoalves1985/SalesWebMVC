@@ -25,7 +25,6 @@ namespace SalesWebMVC.Models
 
         [Display(Name = "Base Salary")]
         [DisplayFormat(DataFormatString ="{0:F2}")]
-        [Required(ErrorMessage = "{0} required")]
         public double  BaseSalary { get; set; }
 
         public Department Department { get; set; }
